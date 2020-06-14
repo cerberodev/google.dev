@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
           child: const Text('Hello World'),
         ),
       ),
+      theme: ThemeData(brightness: Brightness.dark),
     );
   }
 }
